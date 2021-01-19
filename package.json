@@ -27,6 +27,4 @@
   ],
   "devDependencies": {
     "nodemon": "^1.18.11"
-  },
-  "proxy": "https://list-frontend.herokuapp.com"
-}
+  }

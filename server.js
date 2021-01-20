@@ -1,11 +1,12 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-
+const bodyParser = require('body-parser')
 const publicPath = path.join(__dirname, 'client',"build");
 
 const port = process.env.PORT || 3000;
 
+app.use(bodyParser.json())
 app.use(express.static(publicPath));
 
 app.get('*', (req, res) => {

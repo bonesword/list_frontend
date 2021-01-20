@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/bonesword/list_frontend/issues"
   },
-  "homepage": "https://github.com/bonesword/list_frontend#readme"
+  "homepage": "https://github.com/bonesword/list_frontend#readme",
+  "engines": {
+    "node":"14.15.4"
+  }
 }
